@@ -38,5 +38,6 @@ public class Date {
 	
 	public void displayDate(int month, int day, int year) {
 		System.out.printf("%02d/%02d/%4d", month, day, year);
+		
 	}
 }
