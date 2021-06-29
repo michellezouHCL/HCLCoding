@@ -21,7 +21,7 @@ public class Date {
 	}
 	
 	public int getYear() {
-				return year;
+		return year;
 	}
 	
 	public void setMonth(int month) {

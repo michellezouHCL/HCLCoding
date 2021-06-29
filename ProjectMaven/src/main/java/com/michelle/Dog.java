@@ -42,19 +42,19 @@ public class Dog {
 	}
 	
 	public void showExcitement() {
-		System.out.println(this.name + " is waggling its tail!!!");
+		System.out.println(name + " is waggling its tail!!!");
 	}
 	
 	public void showExcitement(int levelOfExcitement) {
-		System.out.println(this.name + " is waggling its tail in level of excitement: "
+		System.out.println(name + " is waggling its tail in level of excitement: "
 	+ levelOfExcitement);
 	}
 	
 	public void eating() {
-		System.out.println(this.name+" eating!");
+		System.out.println(name+" eating!");
 	}
 	
 	public void eating(String food) {
-		System.out.println(this.name+" eating "+ food);
+		System.out.println(name+" eating "+ food);
 	}
 }

@@ -31,11 +31,11 @@ public class Person {
 	}
 	
 	private void walking(String name, int age, int shoeSize) {
-		System.out.printf("%s, age %d, with shoe size %d, is walking",this.name, this.age, this.shoeSize);
+		System.out.printf("%s, age %d, with shoe size %d, is walking",name, age, shoeSize);
 	}
 	
 	public void startWalking() {
-		walking(this.name, this.age, this.shoeSize);
+		walking(name, age, shoeSize);
 	}
 
 }
